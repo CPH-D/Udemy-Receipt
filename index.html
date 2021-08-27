@@ -21,6 +21,23 @@
         @media only screen and (max-width: 600px) {
             .email-container {
                 width: 100%;
+                padding: 0 5px;
+            }
+
+            .order-confirmation {
+                font-size: 40px;
+            }
+
+            .header-two {
+                font-size: 16px;
+            }
+
+            .header-one {
+                font-size: 20px;
+            }
+
+            .start-course {
+                font-size: 14px;
             }
         }
     </style>
@@ -67,9 +84,9 @@
                         <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
                             <tr>
                                 <td style="font-size: 50px; font-weight: bold;">
-                                    Order
-                                    <br>
-                                    Confirmation
+                                    <span class="order-confirmation">Order
+                                        <br>
+                                        Confirmation</span>
                                 </td>
                             </tr>
                             <tr height="25px"></tr>
@@ -100,13 +117,13 @@
                         <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
                             style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold;">
                             <tr>
-                                <td align="left" width="50%">
+                                <td class="header-two" align="left" width="50%">
                                     Description
                                 </td>
-                                <td align="right" width="25%">
+                                <td class="header-two" align="right" width="25%">
                                     List Price
                                 </td>
-                                <td align="right" width="25%">
+                                <td class="header-two" align="right" width="25%">
                                     Your Price
                                 </td>
                             </tr>
@@ -135,18 +152,15 @@
                                 <td align="left" valign="top" width="50%">
                                     <table border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td>
-                                                <span style="font-size: 24px; font-weight: bold;">Complete
-                                                    C# Unity Game
-                                                    Developer
-                                                    3D</span>
+                                            <td style="font-size: 24px; font-weight: bold;">
+                                                <span class="header-one">Complete C# Unity Game Developer</span>
                                             </td>
                                         </tr>
                                         <tr height="10px"></tr>
                                         <tr>
-                                            <td style="padding: 15px 0px;">
-                                                <a href="#"
-                                                    style="font-size: 16px; padding: 13px 27px; background: #000; color: #fff; text-decoration: none; text-align: center;border-radius: 2px;">Start
+                                            <td style="font-size: 16px; padding: 15px 0px;">
+                                                <a class="start-course" href="#"
+                                                    style="padding: 13px 27px; background: #000; color: #fff; text-decoration: none; border-radius: 2px;">Start
                                                     Course</a>
                                             </td>
                                         </tr>
@@ -171,10 +185,10 @@
                             style="font-family: 'Roboto', sans-serif; font-size: 20px; font-weight: bold; color: #222; text-transform: uppercase; padding: 4px 0;">
                             <tr>
                                 <td width="50%"></td>
-                                <td align="right" width="25%">
+                                <td class="header-two" align="right" width="25%">
                                     Tax
                                 </td>
-                                <td align="right" width="25%">
+                                <td class="header-two" align="right" width="25%">
                                     Credits
                                 </td>
                             </tr>
@@ -217,7 +231,7 @@
                             <tr>
                                 <td width="50%"></td>
                                 <td width="25%"></td>
-                                <td align="right" width="25%">
+                                <td class="header-two" align="right" width="25%">
                                     Total
                                 </td>
                             </tr>
@@ -274,20 +288,25 @@
                     </td>
                 </tr>
 
-                <!-- start of Student enrollment list section -->
+                <!-- start of Student enrollment section -->
                 <tr>
                     <td>
                         <table width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
                             style="font-family: 'Roboto', sans-serif; color: #222;">
                             <tr>
                                 <td style="font-weight: bold; font-size: 24px; padding-bottom: 10px;">
-                                    Students who enrolled in Complete C# Unity Game Developer 3D also enrolled in:
+                                    <span class="header-one">Students who enrolled in Complete C# Unity Game Developer
+                                        3D also enrolled in:</span>
                                 </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
-                <!-- end of Student enrollment list section -->
+                <!-- end of Student enrollment section -->
+
+                <!-- start of Course-1 container -->
+
+                <!-- end of Course-1 container -->
 
             </table>
         </td>
